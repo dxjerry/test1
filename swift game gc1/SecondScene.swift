@@ -63,8 +63,8 @@ class SecondScene: SKScene,SKPhysicsContactDelegate {
     }
     
     
-    func test2(){
-        print("hello")
+    func testLocal1(){
+        print("hello local1")
     }
     
     func didBegin(_ contact: SKPhysicsContact) {
