@@ -40,6 +40,11 @@ class SecondScene: SKScene,SKPhysicsContactDelegate {
         enemy.run(SKAction.moveBy(x: -size.width - enemy.size.width, y: 0.0,duration: TimeInterval(random(min: 1, max: 2))))
         enemyarr.append(enemy)
     }
+    
+    func tickDown()
+    {
+        print("tick...")
+    }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if didbegin==false{
             bird.physicsBody?.affectedByGravity=true
@@ -55,6 +60,11 @@ class SecondScene: SKScene,SKPhysicsContactDelegate {
                 bird.physicsBody?.applyImpulse(impulse)
             }
         }
+    }
+    
+    
+    func test1(){
+        print("hello")
     }
     
     func didBegin(_ contact: SKPhysicsContact) {
