@@ -63,7 +63,7 @@ class SecondScene: SKScene,SKPhysicsContactDelegate {
     }
     
     
-    func test1(){
+    func test2(){
         print("hello")
     }
     
