@@ -68,6 +68,15 @@ class SecondScene: SKScene,SKPhysicsContactDelegate {
         print("hello main2")
     }
     
+    func aaapush(){
+        print("aaaaaasdafdsafkdsafjndjsanvaskcnajkdcjnasjkbcnahskbcdahjsbchajbchja")
+    }
+    
+    func ddpush(){
+        var a = 0
+        var b = 3
+        print(a+b)
+    }
     
     func aaapushTest1(){
         print("aaaaaa")
