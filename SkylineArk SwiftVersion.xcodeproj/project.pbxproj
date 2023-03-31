@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		522E58CE275DBF9900258E2F /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522E58CD275DBF9900258E2F /* LocationViewController.swift */; };
+		522E58D1275DEA7E00258E2F /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522E58D0275DEA7E00258E2F /* ExternalAccessory.framework */; };
+		522E58D5275DFB9F00258E2F /* DDPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = 522E58D4275DFB9F00258E2F /* DDPushView.m */; };
+		522E58D7275DFCE300258E2F /* btn_guanbi.png in Resources */ = {isa = PBXBuildFile; fileRef = 522E58D6275DFCE300258E2F /* btn_guanbi.png */; };
+		52B07090271443DF008E25F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B0708F271443DF008E25F3 /* AppDelegate.swift */; };
+		52B07092271443DF008E25F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B07091271443DF008E25F3 /* SceneDelegate.swift */; };
+		52B07094271443DF008E25F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B07093271443DF008E25F3 /* ViewController.swift */; };
+		52B07097271443DF008E25F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B07095271443DF008E25F3 /* Main.storyboard */; };
+		52B0709A271443DF008E25F3 /* SkylineArk_SwiftVersion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52B07098271443DF008E25F3 /* SkylineArk_SwiftVersion.xcdatamodeld */; };
+		52B0709C271443E3008E25F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B0709B271443E3008E25F3 /* Assets.xcassets */; };
+		52B0709F271443E3008E25F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B0709D271443E3008E25F3 /* LaunchScreen.storyboard */; };
+		52B070AA271443E3008E25F3 /* SkylineArk_SwiftVersionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B070A9271443E3008E25F3 /* SkylineArk_SwiftVersionTests.swift */; };
+		52B070B4271443E3008E25F3 /* SkylineArk_SwiftVersionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B070B3271443E3008E25F3 /* SkylineArk_SwiftVersionUITests.swift */; };
+		52B070B6271443E3008E25F3 /* SkylineArk_SwiftVersionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B070B5271443E3008E25F3 /* SkylineArk_SwiftVersionUITestsLaunchTests.swift */; };
+		52CCE6BE27151FBF0022D10A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CCE6BD27151FBF0022D10A /* TabBarViewController.swift */; };
+		52CCE6C4271521310022D10A /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CCE6C3271521310022D10A /* Global.swift */; };
+		52CCE6CD27155B0E0022D10A /* ShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CCE6CC27155B0E0022D10A /* ShareManager.swift */; };
+		52CCE6D3271565670022D10A /* VC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CCE6D2271565670022D10A /* VC1.swift */; };
+		52CCE6D5271565DF0022D10A /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CCE6D4271565DF0022D10A /* VC2.swift */; };
+		52D2D1942755C1220098E149 /* PhotoPicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D2D1932755C1220098E149 /* PhotoPicViewController.swift */; };
+		52D2D1962755C19A0098E149 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D2D1952755C19A0098E149 /* BaseViewController.swift */; };
+		6B204684A6745D1B4F87125D /* libPods-SkylineArk SwiftVersion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBCF77336C01A085EB679E0 /* libPods-SkylineArk SwiftVersion.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52B070A6271443E3008E25F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52B07084271443DF008E25F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B0708B271443DF008E25F3;
+			remoteInfo = "SkylineArk SwiftVersion";
+		};
+		52B070B0271443E3008E25F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52B07084271443DF008E25F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B0708B271443DF008E25F3;
+			remoteInfo = "SkylineArk SwiftVersion";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		522E58CD275DBF9900258E2F /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		522E58CF275DEA7E00258E2F /* SkylineArk SwiftVersion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SkylineArk SwiftVersion.entitlements"; sourceTree = "<group>"; };
+		522E58D0275DEA7E00258E2F /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		522E58D3275DFB9F00258E2F /* DDPushView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDPushView.h; sourceTree = "<group>"; };
+		522E58D4275DFB9F00258E2F /* DDPushView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDPushView.m; sourceTree = "<group>"; };
+		522E58D6275DFCE300258E2F /* btn_guanbi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_guanbi.png; sourceTree = "<group>"; };
+		52B0708C271443DF008E25F3 /* SkylineArk SwiftVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SkylineArk SwiftVersion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B0708F271443DF008E25F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52B07091271443DF008E25F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		52B07093271443DF008E25F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52B07096271443DF008E25F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52B07099271443DF008E25F3 /* SkylineArk_SwiftVersion.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SkylineArk_SwiftVersion.xcdatamodel; sourceTree = "<group>"; };
+		52B0709B271443E3008E25F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52B0709E271443E3008E25F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52B070A0271443E3008E25F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B070A5271443E3008E25F3 /* SkylineArk SwiftVersionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SkylineArk SwiftVersionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B070A9271443E3008E25F3 /* SkylineArk_SwiftVersionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkylineArk_SwiftVersionTests.swift; sourceTree = "<group>"; };
+		52B070AF271443E3008E25F3 /* SkylineArk SwiftVersionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SkylineArk SwiftVersionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B070B3271443E3008E25F3 /* SkylineArk_SwiftVersionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkylineArk_SwiftVersionUITests.swift; sourceTree = "<group>"; };
+		52B070B5271443E3008E25F3 /* SkylineArk_SwiftVersionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkylineArk_SwiftVersionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52CCE6BD27151FBF0022D10A /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		52CCE6C3271521310022D10A /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		52CCE6C7271537990022D10A /* SkylineArk SwiftVersion-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SkylineArk SwiftVersion-Bridging-Header.h"; sourceTree = "<group>"; };
+		52CCE6CC27155B0E0022D10A /* ShareManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareManager.swift; sourceTree = "<group>"; };
+		52CCE6D2271565670022D10A /* VC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC1.swift; sourceTree = "<group>"; };
+		52CCE6D4271565DF0022D10A /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		52D2D1932755C1220098E149 /* PhotoPicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicViewController.swift; sourceTree = "<group>"; };
+		52D2D1952755C19A0098E149 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		961DE4C47D9FACB9A205D395 /* Pods-SkylineArk SwiftVersion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkylineArk SwiftVersion.debug.xcconfig"; path = "Target Support Files/Pods-SkylineArk SwiftVersion/Pods-SkylineArk SwiftVersion.debug.xcconfig"; sourceTree = "<group>"; };
+		DBBCF77336C01A085EB679E0 /* libPods-SkylineArk SwiftVersion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkylineArk SwiftVersion.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A24E78B40F6C63982A8E93 /* Pods-SkylineArk SwiftVersion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkylineArk SwiftVersion.release.xcconfig"; path = "Target Support Files/Pods-SkylineArk SwiftVersion/Pods-SkylineArk SwiftVersion.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52B07089271443DF008E25F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522E58D1275DEA7E00258E2F /* ExternalAccessory.framework in Frameworks */,
+				6B204684A6745D1B4F87125D /* libPods-SkylineArk SwiftVersion.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B070A2271443E3008E25F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B070AC271443E3008E25F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		006CB56989406B68E36DE534 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				522E58D0275DEA7E00258E2F /* ExternalAccessory.framework */,
+				DBBCF77336C01A085EB679E0 /* libPods-SkylineArk SwiftVersion.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		522E58D2275DFB8500258E2F /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				522E58D9275E0E4000258E2F /* DDPushView */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		522E58D8275E05C100258E2F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				522E58D6275DFCE300258E2F /* btn_guanbi.png */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		522E58D9275E0E4000258E2F /* DDPushView */ = {
+			isa = PBXGroup;
+			children = (
+				522E58D8275E05C100258E2F /* Support Files */,
+				522E58D3275DFB9F00258E2F /* DDPushView.h */,
+				522E58D4275DFB9F00258E2F /* DDPushView.m */,
+			);
+			path = DDPushView;
+			sourceTree = "<group>";
+		};
+		52B07083271443DF008E25F3 = {
+			isa = PBXGroup;
+			children = (
+				52B0708E271443DF008E25F3 /* SkylineArk SwiftVersion */,
+				52B070A8271443E3008E25F3 /* SkylineArk SwiftVersionTests */,
+				52B070B2271443E3008E25F3 /* SkylineArk SwiftVersionUITests */,
+				52B0708D271443DF008E25F3 /* Products */,
+				A8C4081888B6F1DA8952075D /* Pods */,
+				006CB56989406B68E36DE534 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52B0708D271443DF008E25F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52B0708C271443DF008E25F3 /* SkylineArk SwiftVersion.app */,
+				52B070A5271443E3008E25F3 /* SkylineArk SwiftVersionTests.xctest */,
+				52B070AF271443E3008E25F3 /* SkylineArk SwiftVersionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52B0708E271443DF008E25F3 /* SkylineArk SwiftVersion */ = {
+			isa = PBXGroup;
+			children = (
+				522E58D2275DFB8500258E2F /* Lib */,
+				522E58CF275DEA7E00258E2F /* SkylineArk SwiftVersion.entitlements */,
+				52CCE6CF271564830022D10A /* VC Group */,
+				52CCE6C2271520C60022D10A /* Base */,
+				52B0708F271443DF008E25F3 /* AppDelegate.swift */,
+				52B07091271443DF008E25F3 /* SceneDelegate.swift */,
+				52B07093271443DF008E25F3 /* ViewController.swift */,
+				52CCE6C3271521310022D10A /* Global.swift */,
+				52CCE6CC27155B0E0022D10A /* ShareManager.swift */,
+				52B07095271443DF008E25F3 /* Main.storyboard */,
+				52CCE6C7271537990022D10A /* SkylineArk SwiftVersion-Bridging-Header.h */,
+				52B0709B271443E3008E25F3 /* Assets.xcassets */,
+				52B0709D271443E3008E25F3 /* LaunchScreen.storyboard */,
+				52B070A0271443E3008E25F3 /* Info.plist */,
+				52B07098271443DF008E25F3 /* SkylineArk_SwiftVersion.xcdatamodeld */,
+			);
+			path = "SkylineArk SwiftVersion";
+			sourceTree = "<group>";
+		};
+		52B070A8271443E3008E25F3 /* SkylineArk SwiftVersionTests */ = {
+			isa = PBXGroup;
+			children = (
+				52B070A9271443E3008E25F3 /* SkylineArk_SwiftVersionTests.swift */,
+			);
+			path = "SkylineArk SwiftVersionTests";
+			sourceTree = "<group>";
+		};
+		52B070B2271443E3008E25F3 /* SkylineArk SwiftVersionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52B070B3271443E3008E25F3 /* SkylineArk_SwiftVersionUITests.swift */,
+				52B070B5271443E3008E25F3 /* SkylineArk_SwiftVersionUITestsLaunchTests.swift */,
+			);
+			path = "SkylineArk SwiftVersionUITests";
+			sourceTree = "<group>";
+		};
+		52CCE6C2271520C60022D10A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				52CCE6BD27151FBF0022D10A /* TabBarViewController.swift */,
+				52D2D1952755C19A0098E149 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		52CCE6CF271564830022D10A /* VC Group */ = {
+			isa = PBXGroup;
+			children = (
+				52CCE6D2271565670022D10A /* VC1.swift */,
+				52CCE6D4271565DF0022D10A /* VC2.swift */,
+				52D2D1932755C1220098E149 /* PhotoPicViewController.swift */,
+				522E58CD275DBF9900258E2F /* LocationViewController.swift */,
+			);
+			path = "VC Group";
+			sourceTree = "<group>";
+		};
+		A8C4081888B6F1DA8952075D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				961DE4C47D9FACB9A205D395 /* Pods-SkylineArk SwiftVersion.debug.xcconfig */,
+				E4A24E78B40F6C63982A8E93 /* Pods-SkylineArk SwiftVersion.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52B0708B271443DF008E25F3 /* SkylineArk SwiftVersion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B070B9271443E3008E25F3 /* Build configuration list for PBXNativeTarget "SkylineArk SwiftVersion" */;
+			buildPhases = (
+				1C711EF3CF88A00D4B237316 /* [CP] Check Pods Manifest.lock */,
+				52B07088271443DF008E25F3 /* Sources */,
+				52B07089271443DF008E25F3 /* Frameworks */,
+				52B0708A271443DF008E25F3 /* Resources */,
+				5DE21A35652EB0779FAE8A94 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SkylineArk SwiftVersion";
+			productName = "SkylineArk SwiftVersion";
+			productReference = 52B0708C271443DF008E25F3 /* SkylineArk SwiftVersion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52B070A4271443E3008E25F3 /* SkylineArk SwiftVersionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B070BC271443E3008E25F3 /* Build configuration list for PBXNativeTarget "SkylineArk SwiftVersionTests" */;
+			buildPhases = (
+				52B070A1271443E3008E25F3 /* Sources */,
+				52B070A2271443E3008E25F3 /* Frameworks */,
+				52B070A3271443E3008E25F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52B070A7271443E3008E25F3 /* PBXTargetDependency */,
+			);
+			name = "SkylineArk SwiftVersionTests";
+			productName = "SkylineArk SwiftVersionTests";
+			productReference = 52B070A5271443E3008E25F3 /* SkylineArk SwiftVersionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52B070AE271443E3008E25F3 /* SkylineArk SwiftVersionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B070BF271443E3008E25F3 /* Build configuration list for PBXNativeTarget "SkylineArk SwiftVersionUITests" */;
+			buildPhases = (
+				52B070AB271443E3008E25F3 /* Sources */,
+				52B070AC271443E3008E25F3 /* Frameworks */,
+				52B070AD271443E3008E25F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52B070B1271443E3008E25F3 /* PBXTargetDependency */,
+			);
+			name = "SkylineArk SwiftVersionUITests";
+			productName = "SkylineArk SwiftVersionUITests";
+			productReference = 52B070AF271443E3008E25F3 /* SkylineArk SwiftVersionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52B07084271443DF008E25F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					52B0708B271443DF008E25F3 = {
+						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
+					};
+					52B070A4271443E3008E25F3 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 52B0708B271443DF008E25F3;
+					};
+					52B070AE271443E3008E25F3 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 52B0708B271443DF008E25F3;
+					};
+				};
+			};
+			buildConfigurationList = 52B07087271443DF008E25F3 /* Build configuration list for PBXProject "SkylineArk SwiftVersion" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52B07083271443DF008E25F3;
+			productRefGroup = 52B0708D271443DF008E25F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52B0708B271443DF008E25F3 /* SkylineArk SwiftVersion */,
+				52B070A4271443E3008E25F3 /* SkylineArk SwiftVersionTests */,
+				52B070AE271443E3008E25F3 /* SkylineArk SwiftVersionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52B0708A271443DF008E25F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B0709F271443E3008E25F3 /* LaunchScreen.storyboard in Resources */,
+				52B0709C271443E3008E25F3 /* Assets.xcassets in Resources */,
+				522E58D7275DFCE300258E2F /* btn_guanbi.png in Resources */,
+				52B07097271443DF008E25F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B070A3271443E3008E25F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B070AD271443E3008E25F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C711EF3CF88A00D4B237316 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkylineArk SwiftVersion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DE21A35652EB0779FAE8A94 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkylineArk SwiftVersion/Pods-SkylineArk SwiftVersion-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkylineArk SwiftVersion/Pods-SkylineArk SwiftVersion-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkylineArk SwiftVersion/Pods-SkylineArk SwiftVersion-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52B07088271443DF008E25F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CCE6D3271565670022D10A /* VC1.swift in Sources */,
+				52B07094271443DF008E25F3 /* ViewController.swift in Sources */,
+				52D2D1962755C19A0098E149 /* BaseViewController.swift in Sources */,
+				522E58CE275DBF9900258E2F /* LocationViewController.swift in Sources */,
+				52B07090271443DF008E25F3 /* AppDelegate.swift in Sources */,
+				52CCE6CD27155B0E0022D10A /* ShareManager.swift in Sources */,
+				52CCE6C4271521310022D10A /* Global.swift in Sources */,
+				52B07092271443DF008E25F3 /* SceneDelegate.swift in Sources */,
+				52D2D1942755C1220098E149 /* PhotoPicViewController.swift in Sources */,
+				522E58D5275DFB9F00258E2F /* DDPushView.m in Sources */,
+				52CCE6D5271565DF0022D10A /* VC2.swift in Sources */,
+				52CCE6BE27151FBF0022D10A /* TabBarViewController.swift in Sources */,
+				52B0709A271443DF008E25F3 /* SkylineArk_SwiftVersion.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B070A1271443E3008E25F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B070AA271443E3008E25F3 /* SkylineArk_SwiftVersionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B070AB271443E3008E25F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B070B6271443E3008E25F3 /* SkylineArk_SwiftVersionUITestsLaunchTests.swift in Sources */,
+				52B070B4271443E3008E25F3 /* SkylineArk_SwiftVersionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52B070A7271443E3008E25F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52B0708B271443DF008E25F3 /* SkylineArk SwiftVersion */;
+			targetProxy = 52B070A6271443E3008E25F3 /* PBXContainerItemProxy */;
+		};
+		52B070B1271443E3008E25F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52B0708B271443DF008E25F3 /* SkylineArk SwiftVersion */;
+			targetProxy = 52B070B0271443E3008E25F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52B07095271443DF008E25F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52B07096271443DF008E25F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52B0709D271443E3008E25F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52B0709E271443E3008E25F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52B070B7271443E3008E25F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52B070B8271443E3008E25F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52B070BA271443E3008E25F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 961DE4C47D9FACB9A205D395 /* Pods-SkylineArk SwiftVersion.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "SkylineArk SwiftVersion/SkylineArk SwiftVersion.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WLKWQU542Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SkylineArk SwiftVersion/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dxjerry.SkylineArk-SwiftVersion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SkylineArk SwiftVersion/SkylineArk SwiftVersion-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52B070BB271443E3008E25F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4A24E78B40F6C63982A8E93 /* Pods-SkylineArk SwiftVersion.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "SkylineArk SwiftVersion/SkylineArk SwiftVersion.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WLKWQU542Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SkylineArk SwiftVersion/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dxjerry.SkylineArk-SwiftVersion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SkylineArk SwiftVersion/SkylineArk SwiftVersion-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52B070BD271443E3008E25F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WLKWQU542Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dxjerry.SkylineArk-SwiftVersionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkylineArk SwiftVersion.app/SkylineArk SwiftVersion";
+			};
+			name = Debug;
+		};
+		52B070BE271443E3008E25F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WLKWQU542Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dxjerry.SkylineArk-SwiftVersionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkylineArk SwiftVersion.app/SkylineArk SwiftVersion";
+			};
+			name = Release;
+		};
+		52B070C0271443E3008E25F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WLKWQU542Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dxjerry.SkylineArk-SwiftVersionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SkylineArk SwiftVersion";
+			};
+			name = Debug;
+		};
+		52B070C1271443E3008E25F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WLKWQU542Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dxjerry.SkylineArk-SwiftVersionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SkylineArk SwiftVersion";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52B07087271443DF008E25F3 /* Build configuration list for PBXProject "SkylineArk SwiftVersion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B070B7271443E3008E25F3 /* Debug */,
+				52B070B8271443E3008E25F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B070B9271443E3008E25F3 /* Build configuration list for PBXNativeTarget "SkylineArk SwiftVersion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B070BA271443E3008E25F3 /* Debug */,
+				52B070BB271443E3008E25F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B070BC271443E3008E25F3 /* Build configuration list for PBXNativeTarget "SkylineArk SwiftVersionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B070BD271443E3008E25F3 /* Debug */,
+				52B070BE271443E3008E25F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B070BF271443E3008E25F3 /* Build configuration list for PBXNativeTarget "SkylineArk SwiftVersionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B070C0271443E3008E25F3 /* Debug */,
+				52B070C1271443E3008E25F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52B07098271443DF008E25F3 /* SkylineArk_SwiftVersion.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52B07099271443DF008E25F3 /* SkylineArk_SwiftVersion.xcdatamodel */,
+			);
+			currentVersion = 52B07099271443DF008E25F3 /* SkylineArk_SwiftVersion.xcdatamodel */;
+			path = SkylineArk_SwiftVersion.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 52B07084271443DF008E25F3 /* Project object */;
+}
