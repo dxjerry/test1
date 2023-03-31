@@ -64,7 +64,7 @@ class SecondScene: SKScene,SKPhysicsContactDelegate {
     
     
 
-    func testMain2(){
+    func testMain3(){
         print("hello main2")
     }
     
@@ -76,6 +76,10 @@ class SecondScene: SKScene,SKPhysicsContactDelegate {
         var a = 0
         var b = 3
         print(a+b)
+    }
+    
+    func aaapushTest1(){
+        print("aaaaaa")
     }
     
     func didBegin(_ contact: SKPhysicsContact) {
