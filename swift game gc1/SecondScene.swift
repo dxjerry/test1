@@ -68,6 +68,16 @@ class SecondScene: SKScene,SKPhysicsContactDelegate {
         print("hello main2")
     }
     
+    func aaapush(){
+        print("aaaaaasdafdsafkdsafjndjsanvaskcnajkdcjnasjkbcnahskbcdahjsbchajbchja")
+    }
+    
+    func ddpush(){
+        var a = 0
+        var b = 3
+        print(a+b)
+    }
+    
     func didBegin(_ contact: SKPhysicsContact) {
         print(contact.bodyA.node?.name ?? "nv")
         print(contact.bodyB.node?.name ?? "nv")
